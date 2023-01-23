@@ -1,5 +1,5 @@
 # studyingDL
 
-##Model : Deep Learning Model
+## Model : Deep Learning Model
 
-##Data : M competition datasets
+## Data : M competition datasets
