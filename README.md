@@ -16,3 +16,9 @@
   * GPT
   * VQ-VAE
 
+** Learning
+  * Supervised learning
+  * Unsupervised learning  
+  * Representation learning
+    * Contrastive learning
+    * Generative learning
