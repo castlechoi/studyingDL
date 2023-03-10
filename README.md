@@ -7,6 +7,7 @@
   
 ## Expected  
   **Scheduled to update during Feb/23**
+  * CNN
   * Transformer
   * seq2seq
   * attention 
