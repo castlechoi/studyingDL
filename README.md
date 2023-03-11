@@ -8,6 +8,8 @@
 ## Expected  
   **Scheduled to update during Feb/23**
   * CNN
+    * Resnet
+    * Imagenet
   * Transformer
   * seq2seq
   * attention 
