@@ -17,15 +17,14 @@
 **Scheduled to update following**
   * Bert
   * GPT
-  * VQ-VAE
 
-**Learning
+**Learning**
   * Supervised learning
   * Unsupervised learning  
   * Representation learning
     * Contrastive learning
     * Generative learning
 
-**insights
+**insights**
   * loss function should be de differentiable
   * optimizing means flow to the lowest non-convex function ( Don't know where to flow )
