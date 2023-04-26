@@ -13,11 +13,12 @@
   * Transformer
   * seq2seq
   * attention 
-  
- 
-**Scheduled to update following**
-  * Bert
-  * GPT
+  * NLP
+    * Word2Vec
+    * RNN, LSTM, GRU
+    * Transformer
+    * Bert
+    * GPT
 
 **Learning**
   * Supervised learning
