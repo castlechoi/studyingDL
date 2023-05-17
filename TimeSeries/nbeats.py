@@ -61,31 +61,3 @@ class Stack(nn.Module):
 
         return back, fore
 
-class NBEATS(nn.Module):
-    def __init__(self, config, device):
-        super(NBEATS, self).__init__()
-        #  depth 5 stack
-        self.device = device
-        self.config = config
-        self.stack2 = Stack(config,2,'generic',device).to(device)
-        self.stack3 = Stack(config,3,'generic',device).to(device)
-        self.stack4 = Stack(config,4,'generic',device).to(device)
-        self.stack5 = Stack(config,5,'generic',device).to(device)
-        self.stack6 = Stack(config,6,'generic',device).to(device)
-        self.stack7 = Stack(config,7,'generic',device).to(device)
-        
-
-    def forward(self,x):
-        x = x.view(x.size(0), -1)
-        _, fore2 = self.stack2(x[:,30:]) 
-        
-        _, fore3 = self.stack3(x[:,24:])
-        
-        _, fore4 = self.stack4(x[:,18:])
-        
-        _, fore5 = self.stack5(x[:,12:])
-        
-        _, fore6 = self.stack6(x[:,6:])
-        
-        _, fore7 = self.stack7(x)
-        return (fore2 + fore3 + fore4 + fore5 + fore6 + fore7) / 6
